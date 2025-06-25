@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+<body>
+  <form class="register-form">
+    <h2>Registration Form</h2>
+    <label>Անուն</label>
+    <input type="text" required>
+  
+    <label>Ազգանուն</label>
+    <input type="text" required>
+  
+    <label>Մուտքանուն</label>
+    <input type="text" required>
+  
+    <label>Էլ. հասցե</label>
+    <input type="email" required>
+  
+    <label>Գաղտնաբառ</label>
+    <input type="password" required>
+  
+    <label>Կրկնել գաղտնաբառը</label>
+    <input type="password" required>
+  
+    <label>Հեռախոսահամար</label>
+    <input type="tel" required>
+  
+    <label>Ծննդյան ամսաթիվ</label>
+    <input type="date">
+  
+    <label>Սեռ</label>
+    <div class="radio-group">
+      <label><input type="radio" name="gender" value="male"> Արական</label>
+      <label><input type="radio" name="gender" value="female"> Իգական</label>
+    </div>
+  
+    <label>Լեզուների իմացություն</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="lang" value="hy"> Հայերեն</label>
+      <label><input type="checkbox" name="lang" value="en"> Անգլերեն</label>
+      <label><input type="checkbox" name="lang" value="ru"> Ռուսերեն</label>
+    </div>
+  
+    <label>Դասընթացի անվանումներ</label>
+    <select>
+      <option>Ընտրեք դասընթացը</option>
+      <option>Վեբ ծրագրավորում</option>
+      <option>Դիզայն</option>
+      <option>Տվյալների վերլուծություն</option>
+    </select>
+  
+    <label>Ազատ դաշտ</label>
+    <textarea placeholder="Գրեք այստեղ..."></textarea>
+  
+    <button type="submit">Գրանցվել</button>
+  </form>
+</body>
+</html>

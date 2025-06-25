@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .register-form {
+    background-color: #ffefe3;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 400px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,.1);
+  }
+  
+  .register-form h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .register-form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 3px;
+  }
+  
+  .register-form input,
+  .register-form select,
+  .register-form textarea {
+    width:100%;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid #ccc;
+  }
+  
+  .register-form .radio-group,
+  .register-form .checkbox-group {
+    margin:5px 0;
+  }
+  
+  .register-form .radio-group label,
+  .register-form .checkbox-group label {
+    font-weight: normal;
+    margin-right:10px;
+  }
+  
+  .register-form textarea {
+    resize: both;
+    overflow:auto;
+    min-height:40px;
+  }
+  
+  .register-form button {
+    margin:15px 0 0;
+    padding:8px;
+    font-size:1rem;
+    font-weight: bold;
+    background-color:#a67ff0;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+  }
+  
+  .register-form button:hover {
+    background-color:#875fda;
+  }
+  
